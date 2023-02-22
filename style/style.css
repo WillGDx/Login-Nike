@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/*===============GERAL================================*/
+body {
+    background: hsla(0, 0%, 97%, 1);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+input {
+    border-radius: 12px;
+    border: 1px solid hsla(0, 0%, 0%, 0.25);
+    width: 25.623rem;
+    height: 2.582rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*===============FORM================================*/
+main {
+    min-height: 100vh;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+main h1 {
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+}
+
+main h4 {
+    color: hsla(240, 1%, 39%, 1);
+    margin-bottom: 0.9rem;
+    margin-left: 3rem;
+    font-size: 1.4rem;
+}
+
+main form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 1.4rem;
+    margin-top: 2rem; 
+}
+
+main form input {
+    padding: 0 0.5rem;
+    color: hsla(240, 1%, 39%, 1);
+}
+
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.1rem;
+    
+}
+
+#enter {
+    background: hsla(357, 80%, 59%, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.submit input {
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    font-weight: 590;   
+}
+
+button {
+    border-radius: 12px;
+    border:  1px solid hsla(0, 0%, 0%, 0.25);
+    margin-top: 1.2rem;
+    width: 25.623rem;
+    height: 2.582rem;
+    background: white;
+}
+
+button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600; /*Mais forte a fonte*/
+}
+
+button img {
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 0.38rem;
+}
+
+main form p {
+    margin-top: 1.3rem;
+    font-size: 1rem;
+}
+
+p a {
+    color: hsla(357, 80%, 59%, 1);
+}
+
+#forgot-password {
+    font-weight: 500;
+    margin-left: 17rem;
+    margin-top: 0.8rem;
+}
+
+#forgot-password:hover {
+    color: hsla(357, 80%, 59%, 1);
+}
+
+/*===============IMG================================*/
+.right {
+    min-height: 100vh;
+    width: 50vw;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media(max-width: 420px) {
+    .right {
+        display: none;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: hsla(0, 0%, 97%, 1);
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+    
+    input {
+        border-radius: 12px;
+        border: 1px solid hsla(0, 0%, 0%, 0.25);
+        width: 20rem;
+        height: 2.9rem;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    main {
+        min-height: 50vh;
+        width: 100vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    main .titlesP h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 2.7rem;
+    }
+    
+    main h4 {
+        color: hsla(240, 1%, 39%, 1);
+        margin-bottom: 0.9rem;
+        margin-left: 3rem;
+        font-size: 1.4rem;
+    }
+    
+    main form {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main form label {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main form label span {
+        font-size: 1.4rem;
+        margin-top: 2rem; 
+    }
+    
+    main form input {
+        padding: 0 0.5rem;
+        color: hsla(240, 1%, 39%, 1);
+    }
+    
+    
+    .submit {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.1rem;
+        align-items: center;
+    }
+    
+    #enter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: hsla(357, 80%, 59%, 1);
+        color: white;
+        cursor: pointer;
+    }
+    
+    .submit input {
+        align-items: center;
+        font-size: 1.2rem;
+        line-height: 2.1rem;
+        font-weight: 590;   
+    }
+    
+    button {
+        border-radius: 12px;
+        border:  1px solid hsla(0, 0%, 0%, 0.25);
+        margin-top: 1.2rem;
+        width: 20rem;
+        height: 2.9rem;
+        background: white;
+    }
+    
+    button a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        font-weight: 600; /*Mais forte a fonte*/
+    }
+    
+    button img {
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        margin-right: 0.38rem;
+    }
+    
+    main form p {
+        margin-top: 1.3rem;
+        font-size: 1rem;
+    }
+    
+    p a {
+        color: hsla(357, 80%, 59%, 1);
+    }
+    
+    #forgot-password {
+        font-weight: 500;
+        margin-left: 11.5rem;
+    }
+    
+    #forgot-password:hover {
+        color: hsla(357, 80%, 59%, 1);
+    }
+}
